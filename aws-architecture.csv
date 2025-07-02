@@ -1,0 +1,21 @@
+Shape,Text
+Container,AWS Account
+Container,Region (eu-west-2)
+Container,VPC 10.0.0.0/16
+Container,Availability Zone A
+Container,Availability Zone B
+Container,Public Subnet 1 (10.0.1.0/24)
+Container,Private Subnet 1 (10.0.3.0/24)
+Container,Public Subnet 2 (10.0.2.0/24)
+Container,Private Subnet 2 (10.0.4.0/24)
+Shape,Internet Gateway
+Shape,NAT Gateway
+Shape,Application Load Balancer
+Shape,ECS (Fargate) API Service
+Shape,RDS (Postgres)
+Shape,CloudWatch Logs
+Shape,CloudFront CDN
+Shape,S3 Bucket (Video Content)
+Shape,Lambda (Video Processor)
+Shape,Amazon CloudWatch
+Shape,User

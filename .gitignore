@@ -1,0 +1,45 @@
+# Terraform state and backup files
+*.tfstate
+*.tfstate.backup
+
+# Terraform variable files (can contain secrets)
+terraform.tfvars
+*.tfvars
+
+# Terraform plan files
+*.tfplan
+
+# Local .terraform directories
+.terraform/
+
+# Crash logs
+crash.log
+
+# Sensitive files
+*.pem
+*.key
+*.crt
+*.env
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Node/npm
+node_modules/
+
+# Zip and build artifacts
+*.zip
+*.tar.gz
+*.jar
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+
+# AWS credentials (if any)
+.aws/ 
